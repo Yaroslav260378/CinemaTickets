@@ -1,0 +1,764 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.back-gray {
+	background-color: #e9ecef;
+}
+
+.back-white {
+	background-color: #fff;
+}
+
+.back-dark {
+	background: #545b62;
+}
+
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.menu_nav {
+	float: right;
+}
+
+.logo{
+	position: absolute;
+	color: #fff;
+	margin: 17px 0 0 0;
+	font-size: 30px;
+}
+
+.logo a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.logo a:hover{
+	color: #fd7e14;
+    transition: ease 0.5s;
+}
+
+.logo a:hover span{
+	color: #fff;
+    transition: ease 0.5s;
+}
+
+
+.logo span {
+	color: #fd7e14;
+}
+
+.logo p:first-letter {
+	color: #fd7e14;
+}
+
+.menu_background {
+	background: #545b62; 
+	height: 80px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu p:first-letter {
+	color: #fd7e14;
+}
+
+.menu li {
+	float: left;
+	display: block;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.menu a p{
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 29px 20px 29px 20px;
+	margin-bottom: 0;
+}
+
+.menu a p:hover {
+	color: #fd7e14;
+	background-color: #343a40;
+    transition: ease 0.5s;
+}
+
+.img-cover-carousel {
+	height: 300px;
+	position: relative;
+  	overflow:hidden;
+}
+
+.img-cover-carousel img {
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   object-fit:cover;
+}
+
+.stroke p{
+	text-shadow: #000 1px 1px 0;
+}
+
+.stroke h5{
+	text-shadow: #000 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0;
+}
+
+.stroke a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.stroke a:hover{
+	color: #17a2b8;
+    transition: ease 0.5s;
+}
+
+.stroke a:hover span{
+	color: #fd7e14;
+    transition: ease 0.5s;
+}
+
+.now_on_screen {
+	text-align: center;
+}
+
+
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+h2.funny-title{
+
+	font-size:40px;text-align:center;
+	margin: 10px 0 10px 0;
+	text-transform:uppercase;font-family:'Russo One',sans-serif;font-weight:900;letter-spacing:8px
+}
+
+@keyframes move-background {
+0%{background-position:-300px 400}
+100%{background-position:300px -1000px}
+}
+
+.section-title{
+animation-play-state:running;
+color:transparent;
+background:url(/img/fonText.png) no-repeat #ECE7EA;
+background-size:cover;
+-webkit-text-fill-color:transparent;
+-moz-text-fill-color:transparent;
+-webkit-background-clip:text;
+background-clip:text;
+animation:move-background 7s infinite linear alternate
+}
+
+.vl {
+    border-left: 6px solid #545b62;
+    border-radius: 5px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 500px;
+}
+
+th {
+	padding: 0 40px 0 40px;
+	text-align: justify;
+}
+
+/* footer */
+.footer {
+	padding: 0;
+	margin: 0;
+	display: block;
+	width: 200px;
+}
+
+.footer p:first-letter {
+	color: #fd7e14;
+}
+
+.footer li {
+	display: block;
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+.footer a p{
+	color: #000;
+	font-size: 15px;
+	padding: 5px 0 0 0;
+	margin-bottom: 0;
+	text-decoration: underline;
+}
+
+.footer p{
+	color: #000;
+	font-size: 15px;
+	padding: 5px 0 0 0;
+	margin-bottom: 0;
+}
+
+.footer a p:hover {
+	color: #fd7e14;
+	text-decoration: none;
+    transition: ease 0.5s;
+}
+/* footer */
+
+.child{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 200px;
+}
+
+.h-80 {
+	height: 80px;
+}
+
+.h-130 {
+	height: 130px;
+}
+
+.h-200 {
+	height: 200px;
+}
+
+.h-380 {
+	height: 380px;
+}
+
+.h-500 {
+	height: 500px;
+}
+.mb-30 {
+ 	margin-bottom: 30px;
+ }
+
+ .mb-50 {
+ 	margin-bottom: 50px;
+ }
+
+.mr-30 {
+ 	margin-right: 30px;
+ }
+
+.mt-200 {
+	margin-top: 200px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.ml-150 {
+	margin-left: 150px;
+}
+
+.ml-208 {
+	margin-left: 208px;
+}
+
+.ml-19 {
+	margin-left: 19px;
+}
+
+.ml-16 {
+	margin-left: 16px;
+}
+
+.w-22 {
+	width: 22%;
+}
+
+.w-85 {
+	width: 85px;
+}
+
+.w-35 {
+	width: 35%;
+}
+
+.w-231 {
+	width: 231px;
+}
+
+.pl-10 {
+	padding-left: 10px;
+}
+
+.pl-30 {
+	padding-left: 30px;
+}
+
+.pl-60 {
+	padding-left: 60px;
+}
+
+.pb-15 {
+	padding-bottom: 15px;
+}
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.pt-51 {
+	padding-top: 50px;
+}
+
+.p-25 {
+	padding: 25px;
+}
+
+.br-30 {
+	border-radius: 30px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.ta-left {
+	text-align: left!important;
+}
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.copyright {
+	height: 40px;
+	font-size: 14px;
+}
+
+table img {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+
+.table-image th{
+	width: 100px;
+	height: 100px;
+}
+
+.select-list select {
+	margin: 10px 20px 10px 0;
+	width: 150px;
+	height: 35px;
+	border-color: #fd7e14;
+	font-size: 14px;
+}
+
+.select-list select:after {
+	border: none;
+}
+
+.select-list select:active, select:focus, option{
+  outline:none
+}
+
+.select-list option {
+	border: none;
+}
+
+.wight-position{
+    float: left;
+    box-sizing: border-box;
+}
+
+.calendar-list {
+	margin-left: 170px;
+}
+
+.calendar-list div {
+	margin: 10px 10px 0 0;
+	border: 1px solid #bbc;
+	width: 60px;
+	height: 53px;
+	
+}
+
+.calendar-list div:hover {
+	background-color: #bbc;
+}
+
+.calendar-list label p {
+	text-align: center;
+	color: #000;
+	margin-bottom: 3px;
+}
+
+.radio-btn input[type=radio] {
+	display: none;
+}
+
+.radio-btn input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+
+.card img {
+	height: 400px;
+	max-height: 400px;
+}
+.card h5{
+	text-align: center;
+}
+
+.card hr{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.btn-primary {
+	color: #000;
+	background-color: #fff;
+	border-radius: 0;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #fd7e14;
+}
+
+.btn-office {
+	color: #ff0000;
+	background-color: #fff;
+	border-radius: 0;
+	border: none;
+}
+
+.btn-office:hover {
+	color: #007bff;
+}
+
+.btn-logout {
+	color: #fff;
+	background-color: #dc3545;
+	border-radius: 30px;
+	border: none;
+	display: block;
+    width: 180px;
+}
+
+.btn-logout:hover {
+	background-color: #ffc107;
+	
+}
+
+
+.top-panel {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.top-panel div {
+	float: left;
+	display: block;
+	margin-top: 26px;
+	width: 120px;
+}
+
+.radio-btn input[type=radio]:checked + label {
+    background-color: #e9ecef;
+    color: #6c757d;
+
+}
+.top-panel label{
+	margin: 0;
+	text-align: center;
+	padding: 10px 10px 20px 10px;
+	color: #fd7e14;
+	transition: ease 0.5s;
+}
+
+.top-panel label:hover {
+	color: #6c757d;
+    transition: ease 0.5s;
+}
+
+.card-cinema {
+	width: 50%;
+	padding: 0 5px 10px 5px;
+	background-color: transparent;
+	border: none;
+}
+
+.under-card {
+	height: 150px;
+	background-color: #fff;
+	box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
+}
+
+.card-cinema img {
+	height: 150px;
+	width: 150px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 25px;
+}
+
+.card-cinema h5{
+	text-align: left;
+	margin: 0;
+}
+
+.card-cinema a{
+	text-decoration: none;
+	color: #000;
+}
+
+.card-cinema a:hover{
+	text-decoration: none;
+	color: #f44336;
+}
+
+.card-cinema p{
+	text-align: left;
+	font-size: 14px;
+	margin: 0;
+}
+
+.card-cinema hr{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-title {
+	padding: 25px 10px 10px 10px;
+}
+
+.check-btn{
+	float: right;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+.check-btn span{
+	user-select: none; 
+}
+
+.check-btn input {
+	visibility: hidden;
+}
+
+.check-btn input:checked + span{
+   color: #ffc107;
+}
+
+.btn-link{
+	color: #000;
+	text-decoration: none;
+}
+
+.btn-link:hover{
+	color: #ffc107;
+	text-decoration: none;
+}
+
+.btn-link:focus{
+	color: #ffc107;
+	text-decoration: none;
+}
+
+.noselect {
+	user-select: none; 
+}
+
+.reg-btn {
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	background-color: #007bff;
+	border-radius: 30px;
+	border-style: none;
+
+}
+
+.login-link {
+	color: #343a40;
+	float: right;
+	padding-top: 10px;
+}
+
+.login-link:hover {
+	color: #fd7e14;
+	text-decoration: none;
+}
+
+.select-movie .iframe{
+	width: 630px;
+}
+
+.select-movie small{
+	color: #b6b6b6;
+}
+
+.select-movie img {
+	height: 400px;
+}
+
+.cinemateaters {
+	background-color: #fff;
+}
+
+.cinemateaters span{
+	color: #343a40;
+	font-weight: bold;
+}
+
+.seans-time {
+	height: 25px;
+	width: 50px;
+	border: 1px solid #000;
+	background-color: #fff;
+	outline: none;
+}
+
+.seans-time:focus {
+	outline: none;
+}
+
+.seans-time:hover {
+	background-color: #ddd;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.modal-xxl {
+	max-width: 1500px;
+}
+
+
+
+.cinemaHall {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.seat {
+  height: 15px;
+  width: 15px;
+  margin-right: 2px;
+  background-color: #999999;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.passageBetween {
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+.bay {
+  background-color: red;
+}
+.result {
+  font-size: 10px;
+  display: inline-block;
+  width: 90px;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+
+.screen {
+	border-bottom: 2px solid red;
+	margin-bottom: 25px;
+}
+
+#add_phone_number {
+  display: none;
+}
+
+.border-test {
+	border: 1px solid;
+}
+
+.border-input {
+	border-radius: 4px;
+    border: none;
+    padding: 4px;
+}
+
+.btn-submit {
+	color:;
+}
+
+.scrolled {
+	overflow: scroll;
+	overflow-x: hidden;
+	border: 1px solid #bbc;
+	background-color: #fff;
+}
+
+.selected-option {
+	border-bottom: 1px solid;
+	border-color: #bbc ;
+}
+
+.selected-option button {
+	margin-top: 12px;
+	margin-right: 10px; 
+}
+
+/** цвет дорожки **/
+::-webkit-scrollbar-track {
+background-color:#ecedee;
+}
+
+/** радиус **/
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#6dc0c8;
+  }
+
+/** цвет бегунка при наведении **/
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#545b62;
+  }
+/** Основная ширина полосы прокрутки **/
+::-webkit-scrollbar{
+width: 4px;
+}
+
+.round_btn {
+	border-radius: 100px;
+	width: 15px !important;
+	height: 15px !important;
+	border: none !important;
+}
+
+.btn_slider_pos_top {
+	bottom: 85% !important;
+}
